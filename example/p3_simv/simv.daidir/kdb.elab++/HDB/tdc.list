@@ -1,0 +1,11 @@
+ISA.svh
+sys_defs.svh
+testbench/mem.sv
+testbench/testbench.sv
+verilog/ex_stage.sv
+verilog/id_stage.sv
+verilog/if_stage.sv
+verilog/mem_stage.sv
+verilog/pipeline.sv
+verilog/regfile.sv
+verilog/wb_stage.sv

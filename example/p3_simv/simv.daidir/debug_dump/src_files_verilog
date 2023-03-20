@@ -1,0 +1,11 @@
+/home/walwan/UM/Course/EECS470/Project/3/code/ISA.svh
+/home/walwan/UM/Course/EECS470/Project/3/code/sys_defs.svh
+/home/walwan/UM/Course/EECS470/Project/3/code/testbench/mem.sv
+/home/walwan/UM/Course/EECS470/Project/3/code/testbench/testbench.sv
+/home/walwan/UM/Course/EECS470/Project/3/code/verilog/ex_stage.sv
+/home/walwan/UM/Course/EECS470/Project/3/code/verilog/id_stage.sv
+/home/walwan/UM/Course/EECS470/Project/3/code/verilog/if_stage.sv
+/home/walwan/UM/Course/EECS470/Project/3/code/verilog/mem_stage.sv
+/home/walwan/UM/Course/EECS470/Project/3/code/verilog/pipeline.sv
+/home/walwan/UM/Course/EECS470/Project/3/code/verilog/regfile.sv
+/home/walwan/UM/Course/EECS470/Project/3/code/verilog/wb_stage.sv

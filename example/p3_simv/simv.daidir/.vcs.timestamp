@@ -1,0 +1,155 @@
+0 
+50
++itf+/usr/caen/vcs-2020.12-SP2-1/linux64/lib/vcsdp_lite.tab
++vc
++vcs+vcdpluson
++vcsd1
++vpi
+-Mamsrun=
+-Masflags=
+-Mcc=gcc
+-Mcfl= -pipe -fPIC -O -I/usr/caen/vcs-2020.12-SP2-1/include
+-Mcplusplus=g++
+-Mcrt0=
+-Mcrtn=
+-Mcsrc=testbench/pipe_print.c
+-Mexternalobj=
+-Mldflags= -rdynamic
+-Mobjects= /usr/caen/vcs-2020.12-SP2-1/linux64/lib/libvirsim.so /usr/caen/vcs-2020.12-SP2-1/linux64/lib/liberrorinf.so /usr/caen/vcs-2020.12-SP2-1/linux64/lib/libsnpsmalloc.so /usr/caen/vcs-2020.12-SP2-1/linux64/lib/libvfs.so
+-Mout=simv
+-Msaverestoreobj=/usr/caen/vcs-2020.12-SP2-1/linux64/lib/vcs_save_restore_new.o
+-Msyslibs=/usr/caen/verdi-2020.12-SP2-1/share/PLI/VCS/LINUX64/pli.a -ldl
+-Mupdate
+-Mvcsaceobjs=
+-Mxcflags= -pipe -fPIC -I/usr/caen/vcs-2020.12-SP2-1/include
+-Mxllcflags=
+-P
+-V
+-Xufe=2steps
+-debug_access+all
+-fsdb
+-full64
+-gen_obj
+-kdb
+-lca
+-line
+-o simv
+-picarchive
+-sverilog
+/usr/caen/vcs-2020.12-SP2-1/linux64/bin/vcs1
+simv
+/usr/caen/verdi-2020.12-SP2-1/share/PLI/VCS/LINUX64/verdi.tab
+sys_defs.svh
+ISA.svh
+testbench/mem.sv
+testbench/testbench.sv
+verilog/pipeline.sv
+verilog/regfile.sv
+verilog/if_stage.sv
+verilog/id_stage.sv
+verilog/ex_stage.sv
+verilog/mem_stage.sv
+verilog/wb_stage.sv
+78
+which_declare=typeset -f
+__LMOD_REF_COUNT__LMFILES_=/usr/caen/misc/modules/synopsys-synth/2022.03-SP3.lua:1;/usr/caen/misc/modules/vcs/2020.12-SP2-1.lua:1;/usr/caen/misc/modules/verdi/2020.12-SP2-1.lua:1
+__LMOD_REF_COUNT_PATH=/usr/caen/verdi-2020.12-SP2-1/bin:1;/usr/caen/vcs-2020.12-SP2-1/bin:1;/usr/caen/synopsys-synth-2022.03-SP3/bin:1;/usr/local/bin:1;/usr/bin:1;/usr/local/sbin:1;/usr/sbin:1;/usr/um/bin:1;/usr/caen/bin:1
+__LMOD_REF_COUNT_MODULEPATH=/etc/scl/modulefiles:1;/etc/modulefiles:1;/usr/share/modulefiles:1;/usr/caen/misc/modules:1;/afs/umich.edu/class/coe/modules:1;/usr/share/modulefiles/Linux:1;/usr/share/modulefiles/Core:1;/usr/share/lmod/lmod/modulefiles/Core:1
+__LMOD_REF_COUNT_LOADEDMODULES=synopsys-synth/2022.03-SP3:1;vcs/2020.12-SP2-1:1;verdi/2020.12-SP2-1:1
+__LMOD_REF_COUNT_LM_LICENSE_FILE=license.dat:1;/usr/caen/FLEXlm/data/license.dat.synopsys:1
+__GL_SHADER_DISK_CACHE=0
+_ZSH_TMUX_FIXED_CONFIG=/home/walwan/.oh-my-zsh/plugins/tmux/tmux.only.conf
+_P9K_TTY=/dev/pts/6
+_ModuleTable_Sz_=4
+_ModuleTable004_=fQ==
+_ModuleTable003_=c2MvbW9kdWxlcyIsIi9hZnMvdW1pY2guZWR1L2NsYXNzL2NvZS9tb2R1bGVzIiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9MaW51eCIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvQ29yZSIsIi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLH0sWyJzeXN0ZW1CYXNlTVBBVEgiXT0iL2V0Yy9zY2wvbW9kdWxlZmlsZXM6L2V0Yy9tb2R1bGVmaWxlczovdXNyL3NoYXJlL21vZHVsZWZpbGVzOi91c3IvY2Flbi9taXNjL21vZHVsZXM6L2Fmcy91bWljaC5lZHUvY2xhc3MvY29lL21vZHVsZXM6L3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9MaW51eDovdXNyL3NoYXJlL21vZHVsZWZpbGVzL0NvcmU6L3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIs
+_ModuleTable002_=bE5hbWUiXT0idmNzLzIwMjAuMTItU1AyLTEiLFsibG9hZE9yZGVyIl09Mixwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJ2Y3MiLH0sdmVyZGk9e1siZm4iXT0iL3Vzci9jYWVuL21pc2MvbW9kdWxlcy92ZXJkaS8yMDIwLjEyLVNQMi0xLmx1YSIsWyJmdWxsTmFtZSJdPSJ2ZXJkaS8yMDIwLjEyLVNQMi0xIixbImxvYWRPcmRlciJdPTMscHJvcFQ9e30sWyJzdGFja0RlcHRoIl09MCxbInN0YXR1cyJdPSJhY3RpdmUiLFsidXNlck5hbWUiXT0idmVyZGkiLH0sfSxtcGF0aEE9eyIvZXRjL3NjbC9tb2R1bGVmaWxlcyIsIi9ldGMvbW9kdWxlZmlsZXMiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzIiwiL3Vzci9jYWVuL21p
+_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJNVHZlcnNpb24iXT0zLFsiY19yZWJ1aWxkVGltZSJdPWZhbHNlLFsiY19zaG9ydFRpbWUiXT1mYWxzZSxkZXB0aFQ9e30sZmFtaWx5PXt9LG1UPXtbInN5bm9wc3lzLXN5bnRoIl09e1siZm4iXT0iL3Vzci9jYWVuL21pc2MvbW9kdWxlcy9zeW5vcHN5cy1zeW50aC8yMDIyLjAzLVNQMy5sdWEiLFsiZnVsbE5hbWUiXT0ic3lub3BzeXMtc3ludGgvMjAyMi4wMy1TUDMiLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInN0YWNrRGVwdGgiXT0wLFsic3RhdHVzIl09ImFjdGl2ZSIsWyJ1c2VyTmFtZSJdPSJzeW5vcHN5cy1zeW50aCIsfSx2Y3M9e1siZm4iXT0iL3Vzci9jYWVuL21pc2MvbW9kdWxlcy92Y3MvMjAyMC4xMi1TUDItMS5sdWEiLFsiZnVs
+_LMFILES_=/usr/caen/misc/modules/synopsys-synth/2022.03-SP3.lua:/usr/caen/misc/modules/vcs/2020.12-SP2-1.lua:/usr/caen/misc/modules/verdi/2020.12-SP2-1.lua
+ZSH_TMUX_TERM=screen-256color
+ZSH=/home/walwan/.oh-my-zsh
+XDG_SESSION_ID=12947
+XDG_RUNTIME_DIR=/run/user/114273409
+XDG_DATA_DIRS=/home/walwan/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+XDG_CONFIG_HOME=/home/walwan/.config
+VMR_MODE_FLAG=64
+VERDI_HOME=/usr/caen/verdi-2020.12-SP2-1
+VCS_TARGET_ARCH=linux64
+VCS_PATHMAP_PRELOAD_DONE=1
+VCS_MX_HOME_INTERNAL=1
+VCS_MODE_FLAG=64
+VCS_LCAMSG_PRINT_OFF=1
+VCS_HOME=/usr/caen/vcs-2020.12-SP2-1
+VCS_EXEC_DONE=1
+VCS_DEPTH=0
+VCS_ARG_ADDED_FOR_TMP=1
+VCS_ARCH=linux64
+UNAME=/bin/uname
+TOOL_HOME=/usr/caen/vcs-2020.12-SP2-1/linux64
+SYNOPSYS=/usr/caen/synopsys-synth-2022.03-SP3
+SSH_TTY=/dev/pts/6
+SSH_CONNECTION=104.177.56.178 57114 141.211.160.36 22
+SSH_CLIENT=104.177.56.178 57114 22
+SNPS_VERDI_INTERNAL_LP_XML_NEW_FLOW=1
+SELINUX_USE_CURRENT_RANGE=
+SELINUX_ROLE_REQUESTED=
+SELINUX_LEVEL_REQUESTED=
+SCRNAME=vcs
+SCRIPT_NAME=vcs
+P9K_TTY=old
+P9K_SSH=1
+OVA_UUM=0
+MSI2LMP_LIBRARY=/usr/share/lammps/frc_files
+MODULESHOME=/usr/share/Modules
+MODULEPATH_ROOT=/usr/share/modulefiles
+MODULEPATH=/etc/scl/modulefiles:/etc/scl/modulefiles:/etc/modulefiles:/usr/share/modulefiles:/usr/caen/misc/modules:/afs/umich.edu/class/coe/modules:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core:/usr/caen/misc/modules:/afs/umich.edu/class/coe/modules
+MFLAGS=
+MAKE_TERMOUT=/dev/pts/6
+MAKE_TERMERR=/dev/pts/6
+MAKELEVEL=1
+MAKEFLAGS=
+LSCOLORS=Gxfxcxdxbxegedabagacad
+LOADEDMODULES=synopsys-synth/2022.03-SP3:vcs/2020.12-SP2-1:verdi/2020.12-SP2-1
+LMOD_sys=Linux
+LMOD_VERSION=8.2.7
+LMOD_SETTARG_FULL_SUPPORT=no
+LMOD_ROOT=/usr/share/lmod
+LMOD_PKG=/usr/share/lmod/lmod
+LMOD_DIR=/usr/share/lmod/lmod/libexec
+LMOD_CMD=/usr/share/lmod/lmod/libexec/lmod
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+LESS=-R
+LC_ALL=C
+LAMMPS_POTENTIALS=/usr/share/lammps/potentials
+KRB5CCNAME=KEYRING:persistent:114273409
+HISTCONTROL=ignoredups
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/114273409/bus
+BASH_FUNC_which%%=() {  ( alias;_ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@_}
+BASH_FUNC_scl%%=() {  if [ "$1" = "load" -o "$1" = "unload" ]; then_ eval "module $@";_ else_ /usr/bin/scl "$@";_ fi_}
+BASH_FUNC_module%%=() {  eval $($LMOD_CMD bash "$@") && eval $(${LMOD_SETTARG_CMD:-:} -s sh)_}
+BASH_FUNC_ml%%=() {  eval $($LMOD_DIR/ml_cmd "$@")_}
+BASH_ENV=/usr/share/lmod/lmod/init/bash
+0
+0
+13
+1664753609 verilog/wb_stage.sv
+1664753575 verilog/mem_stage.sv
+1664756645 verilog/ex_stage.sv
+1664758784 verilog/id_stage.sv
+1664656417 verilog/if_stage.sv
+1664579803 verilog/regfile.sv
+1664762410 verilog/pipeline.sv
+1670467867 testbench/testbench.sv
+1664032599 testbench/mem.sv
+1664916538 ISA.svh
+1664916899 sys_defs.svh
+1626691673 /usr/caen/verdi-2020.12-SP2-1/share/PLI/VCS/LINUX64/verdi.tab
+1626663962 /usr/caen/vcs-2020.12-SP2-1/linux64/lib/vcsdp_lite.tab
+5
+1664032599 testbench/pipe_print.c
+1626665287 /usr/caen/vcs-2020.12-SP2-1/linux64/lib/libvirsim.so
+1626664738 /usr/caen/vcs-2020.12-SP2-1/linux64/lib/liberrorinf.so
+1626664460 /usr/caen/vcs-2020.12-SP2-1/linux64/lib/libsnpsmalloc.so
+1626664734 /usr/caen/vcs-2020.12-SP2-1/linux64/lib/libvfs.so
+1670467882 simv.daidir
+-1 partitionlib
