@@ -1,0 +1,20 @@
+# Project related files
+*.out
+
+# Simulation and synthesis outputs
+build/
+!build/sim/novas.rc_template
+!build/synth/default.tcl
+simv_*
+*.daidir
+*.vdb
+*.mr
+ucli.key
+verdi_config_file
+vdCovLog/
+*-verilog.pvl
+*-verilog.syn
+filenames.log
+command.log
+default.svf
+.fsm.sch.verilog.xml
